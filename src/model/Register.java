@@ -42,4 +42,12 @@ public class Register {
 		}
 		return info;
 	}
+	public Person getRegister(long id) {
+		boolean founded = false;
+		Person current = null;
+		for(int i = 0; i<registers.size() && !founded; i++) {
+			if(registers.get(i).getIdentification() == id) current = registers.get(i);
+		}
+		return current;
+	}
 }

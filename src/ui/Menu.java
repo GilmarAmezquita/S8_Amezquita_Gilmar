@@ -68,7 +68,6 @@ public class Menu {
 				break;
 			case CONSULT:
 				System.out.println(register.getIntents());
-				System.out.println(register.getRegisters());
 				break;
 			case EXIT:
 				break;
